@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/measure"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="New measurement"/>
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Patient history"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Settings"/>
+  </group>
+
+  <item android:title="Communicate">
+    <menu>
+      <item
+          android:id="@+id/emergency"
+          android:icon="@mipmap/ic_launcher"
+          android:title="Emergency Contacts"/>
+      <item
+          android:id="@+id/feedback"
+          android:icon="@drawable/ic_menu_send"
+          android:title="Feedback"/>
+    </menu>
+  </item>
+
+</menu>
